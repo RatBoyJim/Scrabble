@@ -57,8 +57,8 @@ def update_points_total():
 
 update_points_total()
     
-while input('Would you like to add any more words? ') == 'y':
-  for player in player_to_words: 
-    player_to_words[player].append(input('Can you give me ' + player + '\'s words to score seperated by commas please? '))
-  print(player_to_words)
-  update_points_total()
+# while input('Would you like to add any more words? ') == 'y':
+#   for player in player_to_words: 
+#     player_to_words[player].append(input('Can you give me ' + player + '\'s words to score seperated by commas please? '))
+#   print(player_to_words)
+#   update_points_total()
